@@ -2,7 +2,8 @@
     margin: 0;
     font-family: 'Open Sans', sans-serif;
 }
-section{
+
+section {
     margin-top: 130px;
 }
 
@@ -50,6 +51,7 @@ nav ul {
     background-repeat: no-repeat;
     background-position: bottom right, left;
 }
+
 
 /* Banner Styles */
 .banner {
@@ -172,4 +174,44 @@ main {
     font-weight: 400;
     font-size: 16px;
     color: #757575;
+}
+
+.resume-content {
+    display: flex;
+    gap: 24px;
+}
+
+.resume .resume-title {
+    font-weight: 700;
+    font-size: 30px;
+    color: #474747;
+    
+}
+
+.resume .title {
+    font-weight: 700;
+font-size: 25px;
+    color: #474747;
+    margin-bottom: 10px;
+}
+
+.resume .sub-title {
+    font-weight: 700;
+    font-size: 25px;
+    color: #474747;
+    margin-bottom: 20px;
+}
+
+.resume .description {
+    font-weight: 400;
+    font-size: 16px;
+    color: #757575;
+}
+.resume-item{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.resume-button{
+    margin-top: 50px;
+    text-align: center;
 }
