@@ -2,6 +2,9 @@
     margin: 0;
     font-family: 'Open Sans', sans-serif;
 }
+section{
+    margin-top: 130px;
+}
 
 .text-primary {
     color: #FD6E0A;
@@ -94,8 +97,12 @@ main {
 }
 
 .section-title {
-    
+
     margin-bottom: 30px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 35px;
+    margin-bottom: 50px;
 }
 
 .sec-description {
@@ -106,20 +113,63 @@ main {
     text-align: center;
 }
 
-.about-info-container{
+.about-info-container {
     display: flex;
     justify-content: space-around;
 }
-.about-info-container .info-title{
+
+.about-info-container .info-title {
     /* font-weight: 400; */
     font-size: 20px;
     color: #757575;
     /* text-align: center; */
 
 }
-.about-info-container .info-des{
+
+.about-info-container .info-des {
     font-weight: 700;
     font-size: 20px;
     color: #474747;
     /* text-align: center; */
+}
+
+/* what I do styles */
+.what-i-do {
+    margin-top: 130px;
+    font-weight: 700;
+    font-size: 35px;
+    text-align: center;
+}
+
+.whatido-des {
+    font-weight: 400;
+    font-size: 18px;
+    color: #757575;
+    margin-bottom: 30px;
+}
+
+.skills-container {
+    display: flex;
+    gap: 24px;
+
+}
+
+.skill {
+    background: #FFFFFF;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+}
+
+.skill-title {
+    font-weight: 700;
+    font-size: 20px;
+    color: #181818;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.skill-des {
+    font-weight: 400;
+    font-size: 16px;
+    color: #757575;
 }
