@@ -60,10 +60,14 @@ nav ul {
     align-items: center;
 }
 
-.author {}
+.author-name {
+    font-weight: 700;
+    font-size: 85px;
+}
 
-font-weight: 700;
-font-size: 85px;
+/* font-weight: 700;
+font-size: 85px; */
+font-
 
 .banner-subtitle {
 
