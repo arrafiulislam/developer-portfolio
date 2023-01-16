@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.text-primary {
+    color: #FD6E0A;
+}
+
+.button-primary {
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 20px;
+    border: 0;
+    padding: 18px 35px;
+    height: 64px;
+    border-radius: 5px;
+    background-color: #FD6E0A;
+}
+
+/* header and navigation style */
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 200px;
+}
+
+nav li {
+    list-style: none;
+    margin-left: 50px;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+
+}
+
+.nav-title {
+    font-weight: 800;
+    font-size: 45px;
+}
+
+.header {
+    background: #FFF8F3;
+    background-image: url('../images/header_bg.png'), url('../images/developer.png');
+    background-repeat: no-repeat;
+    background-position: bottom right, left;
+}
+
+/* Banner Styles */
+.banner {
+    margin: 0 200px;
+    display: flex;
+    align-items: center;
+}
+
+.author {}
+
+font-weight: 700;
+font-size: 85px;
+
+.banner-subtitle {
+
+    font-weight: 600;
+    font-size: 45px;
+    color: #474747;
+    margin-bottom: 20px;
+}
+
+.banner-description {
+    font-weight: 400;
+    font-size: 18px;
+    color: #757575;
+    margin-bottom: 30px;
+}
+
+/* main section */
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+/* About section styles */
+
+.about-me {
+    text-align: center;
+    margin-top: 130px;
+    font-weight: 700;
+    font-size: 35px;
+    background: #FFF8F3;
+    border-radius: 10px;
+    padding: 157px 131px;
+}
+
+.section-title {
+    
+    margin-bottom: 30px;
+}
+
+.sec-description {
+    font-weight: 400;
+    font-size: 18px;
+    color: #757575;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+}
+.about-info-container .info-title{
+    /* font-weight: 400; */
+    font-size: 20px;
+    color: #757575;
+    /* text-align: center; */
+
+}
+.about-info-container .info-des{
+    font-weight: 700;
+    font-size: 20px;
+    color: #474747;
+    /* text-align: center; */
+}
